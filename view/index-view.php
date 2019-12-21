@@ -9,8 +9,10 @@
 <body>
     <h1>hello world ciné</h1>
     <form action="index.php" method="get">
-        <button type="submit" name='page' value='film9'>Page film Las Vegas Paranos</button>
-        <button type="submit" name='page' value='film1'>Page film Bad Boys</button>
+        <button type="submit" name='page' value='1'>Bad Boys</button>
+        <button type="submit" name='page' value='9'>Las Vegas Paranos</button>
+        <button type="submit" name='page' value='15'>Retour Vers le Futur</button>
+        <button type="submit" name='page' value='2'>300</button>
     </form>
 </body>
 </html>

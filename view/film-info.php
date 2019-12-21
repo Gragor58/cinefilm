@@ -11,9 +11,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h1><?php echo $allData["titre"]; ?></h1>
-    <p>Année de sortie : <?php echo $allData["annee-sortie"]; ?></p>
-    <p>Synopsis : <?php echo $allData["description"]; ?></p>
+    <h1><?php echo $allData[0]["titre"]; ?></h1>
+    <p>Année de sortie : <?php echo $allData[0]["annee-sortie"]; ?></p>
+    <p>Réalisateur : <?php echo $realisateur; ?></p>
+
+    <p>Genres : <?php echo $genre; ?></p>
+    
+
+    <p>Synopsis : <?php echo $allData[0]["description"]; ?></p>
 
     <form action="index.php" method="get">
         <button type="submit" name="page" value="">Home</button>
