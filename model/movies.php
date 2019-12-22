@@ -4,7 +4,7 @@
     $search = $_GET['filmId'];
 
     try{
-        $db = new PDO('mysql:host=localhost;dbname=dbFilms;charset=utf8', 'root', '12345');
+        $db = new PDO('mysql:host=localhost;dbname=dbFilms;charset=utf8', 'root', '1234');
         
 
         //------méthode plus sécurisé contre injection SQL------
