@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <p>ahahahah</p>
+    <h1>404 Page not found sorry...</h1>
 </body>
 </html>

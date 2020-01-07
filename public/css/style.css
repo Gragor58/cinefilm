@@ -1,0 +1,131 @@
+.d-flex{
+    display: flex;
+}
+
+
+
+.text-align-center{
+    text-align: center;
+}
+
+/*system margin*/
+.mt-20px{
+    margin-top: 20px;
+}
+
+.mr-20px{
+    margin-right: 20px;
+}
+
+.mb-40px{
+    margin-bottom: 40px;
+}
+/*fin system margin*/
+
+/*system width*/
+.w-125px{
+    width: 125px;
+}
+/*fin system width*/
+
+/*--------------FILM INFO CSS----------*/
+/*header*/
+.header-box{
+    box-shadow: 3px 7px 7px 0px grey;
+}
+
+
+
+.form-flex{
+    margin-top: 15px;
+    display: flex;
+    /* justify-content: center; */
+}
+
+input[type="text"] {
+    width: 55%;
+    font-size: 20px;
+    border: none;
+    
+    /* border-radius: 0 0 10px 10px; */
+    box-shadow: -3px 7px 2px -5px rgba(32,33,36,0.28);
+}
+
+#search-result {
+    width: 52%;
+    position: absolute;
+    background-color: white;
+    z-index: 1000;
+    /* border-radius: 0 0 10px 10px; */
+    box-shadow: inset 0px -7px 2px -5px rgba(32,33,36,0.28);
+}
+
+#search-result p:hover{
+    background-color: rgb(231, 202, 155);
+    cursor: pointer;
+}
+
+#search-result .container-fluid {
+    padding: 0;
+}
+
+#search-result p {
+    padding: 10px;
+}
+
+.magnifying-glass{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/magnify.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+
+.magnifying-glass:hover{
+    cursor: pointer;
+}
+/*fin header*/
+
+
+
+/*section main*/
+.description-box{
+    /* box-shadow: 0px 20px 14px -15px grey; */
+    box-shadow: 0px 10px 15px -5px gray;
+    padding: 40px;
+}
+
+.container-affiches{
+    width: 200px;
+    height: 100%;
+}
+
+.affiches{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 5px 15px -2px grey;
+}
+
+.icon-bande-annonce{
+    width: 200px;
+    border: black solid 2px;
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+/*fin section main*/
+
+.zoom  {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom:hover{
+    	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
